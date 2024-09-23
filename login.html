@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+</head>
+<body>
+  <h1>GENERAL BUS PASS APPLICATION</h1>
+  <form action="">
+    <fieldset>
+<legend>Application Details</legend>
+<label for="name">Name</label>
+<input type="text" name="name" id="name" maxlength="20">
+<label for="fname">Father's/Gaurdian's Name</label>
+<input type="text" name="fname" id="fname">
+<br>
+<label for="date">Date of birth</label>
+<input type="text" name="date of birth" id="date">
+<label for="gender">Gender*   </label>
+<input type="radio" name="gender" id="female" >
+<label for="female">female</label>
+<input type="radio" name="gender" id="male">
+<label for="male" >Male</label>
+<br>
+<label for="age">Age As on:</label>
+<input type="checkbox" id="year" name="age">
+<label for="month">Month(s)</label>
+<input type="checkbox" id="month" name="age">
+<label for="day">Day(s)</label>
+<input type="checkbox" id="day" name="age">
+<label for="year">Year(s)</label>
+
+  <label for="aadharno">Aadhaar No:</label>
+<input type="text" name="aano" id="aadharno">
+<br>
+<label for="mobileno">Mobile No:</label>
+<input type="number" name="mobilenumber" id="mobileno">
+<label for="email">E-mail Id</label>
+<input type="email" name="email" id="email">
+<br>
+<label for="photo">Photo</label>
+<input type="file" name="photo" id="photo">
+    </fieldset>
+  </form>
+
+<form action="">
+  <fieldset>
+    <legend>Residental Address Details</legend>
+<label for="applicant-add">Applicant's address</label>
+<textarea name="applicant-add" id="applicant-add" maxlength="20"></textarea>
+<label for="district">District</label>
+<select id="district" >
+  <option value="hyderabad">Hyderabad</option>
+  <option value="Bhimavaram">Bhimavaram</option>
+  <option value="tuni">Tuni</option>
+  <option value="Araku">Araku</option>
+</select>
+<br>
+<label for="Mandal">Mandal</label>
+<select id="Mandal" >
+  <option value="hyderabad">Hyderabad</option>
+  <option value="Bhimavaram">Bhimavaram</option>
+  <option value="tuni">Tuni</option>
+  <option value="Araku">Araku</option>
+</select>
+
+<label for="Village">Village</label>
+<select id="Village" >
+  <option value="hyderabad">Hyderabad</option>
+  <option value="Bhimavaram">Bhimavaram</option>
+  <option value="tuni">Tuni</option>
+  <option value="Araku">Araku</option>
+</select>
+<br>
+<label for="pincode">Pincode</label>
+<input type="text" name="pincode" id="pincode">
+  </fieldset>
+</form>
+
+
+<form action="">
+  <fieldset>
+    <legend>Pass Type Details</legend>
+    <label for="city">City</label>
+    <select id="city" >
+      <option value="hyderabad">Hyderabad</option>
+      <option value="Bhimavaram">Bhimavaram</option>
+      <option value="tuni">Tuni</option>
+      <option value="Araku">Araku</option>
+    </select>
+    <br>
+    <label for="pass-type">Pass Type</label>
+    <select id="pass-type" name="select" >
+      <option value="">---Select---</option>
+      <option value="hyderabad">Hyderabad</option>
+      <option value="Bhimavaram">Bhimavaram</option>
+      <option value="tuni">Tuni</option>
+      <option value="Araku">Araku</option>
+    </select>
+
+  </fieldset>
+</form>
+ <form action="">
+  <fieldset>
+    <legend>Mode of Payment & Pass Collection</legend>
+    <label for="payment-mode">Payment Mode </label>
+    <select id="payment-mode" name="mode" >
+      <option value="">Select Payment Mode</option>
+      <option value="hyderabad">UPI</option>
+      <option value="Bhimavaram">Bank Transfer</option>
+      <option value="tuni">Cash</option>
+    </select>
+<br>
+    <label for="de-mode">Pass Dlivery Mode</label>
+    <select id="de-mode" name="de-mode" >
+      <option value="">Select Pass Delivery Mode</option>
+      <option value="hyderabad">corrier</option>
+      <option value="Bhimavaram">Express bees</option>
+      <option value="tuni">DTDC</option>     
+    </select>
+<br>
+    <label for="collect-pass">Pass Type</label>
+    <select id="collect-pass" name="co-past" >
+      <option value="">---Select---</option>
+      <option value="hyderabad">Residence</option>
+      <option value="Bhimavaram">Office</option>
+      
+    </select>
+
+  </fieldset>
+ </form>
+
+
+</body>
+</html>
